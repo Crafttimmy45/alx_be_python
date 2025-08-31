@@ -1,9 +1,9 @@
 # weather_advice.py
 
-#Prompt user for input
+#Step 1:Prompt user for input
 weather = input("What's the weather like today? (sunny/rainy/cold): ").lower()
 
-# Conditional statements to give advice
+# Step 2: Conditional statements to give advice
 if weather == "sunny":
     print("Wear a t-shirt and sunglasses. ")
 elif weather == "rainy":
